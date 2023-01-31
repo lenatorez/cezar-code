@@ -5,7 +5,7 @@ new_message = ''
 for ch in message:
     if 'a' <= ch <= 'z':
         pos = ord(ch) - ord('a')
-        # print(pos)
+        print(pos)
         pos = (pos + shift) % 26
         # print(pos)
         new_char = chr(pos + ord('a'))
